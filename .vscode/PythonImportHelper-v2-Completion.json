@@ -1,0 +1,338 @@
+[
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeAlias",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "pitch_shift",
+        "importPath": "librosa.effects",
+        "description": "librosa.effects",
+        "isExtraImport": true,
+        "detail": "librosa.effects",
+        "documentation": {}
+    },
+    {
+        "label": "time_stretch",
+        "importPath": "librosa.effects",
+        "description": "librosa.effects",
+        "isExtraImport": true,
+        "detail": "librosa.effects",
+        "documentation": {}
+    },
+    {
+        "label": "ndarray",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "ndarray",
+        "importPath": "numpy",
+        "description": "numpy",
+        "isExtraImport": true,
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "ReadAudio",
+        "importPath": "app.base",
+        "description": "app.base",
+        "isExtraImport": true,
+        "detail": "app.base",
+        "documentation": {}
+    },
+    {
+        "label": "read_audio",
+        "importPath": "app.base",
+        "description": "app.base",
+        "isExtraImport": true,
+        "detail": "app.base",
+        "documentation": {}
+    },
+    {
+        "label": "JSONFormatter",
+        "importPath": "app.base",
+        "description": "app.base",
+        "isExtraImport": true,
+        "detail": "app.base",
+        "documentation": {}
+    },
+    {
+        "label": "read_audio",
+        "importPath": "app.base",
+        "description": "app.base",
+        "isExtraImport": true,
+        "detail": "app.base",
+        "documentation": {}
+    },
+    {
+        "label": "PathLike",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "PathLike",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "load_model",
+        "importPath": "whisper",
+        "description": "whisper",
+        "isExtraImport": true,
+        "detail": "whisper",
+        "documentation": {}
+    },
+    {
+        "label": "Whisper",
+        "importPath": "whisper",
+        "description": "whisper",
+        "isExtraImport": true,
+        "detail": "whisper",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "librosa",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "librosa",
+        "description": "librosa",
+        "detail": "librosa",
+        "documentation": {}
+    },
+    {
+        "label": "write",
+        "importPath": "soundfile",
+        "description": "soundfile",
+        "isExtraImport": true,
+        "detail": "soundfile",
+        "documentation": {}
+    },
+    {
+        "label": "typer",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "typer",
+        "description": "typer",
+        "detail": "typer",
+        "documentation": {}
+    },
+    {
+        "label": "shift_pitch",
+        "importPath": "app.modification",
+        "description": "app.modification",
+        "isExtraImport": true,
+        "detail": "app.modification",
+        "documentation": {}
+    },
+    {
+        "label": "stretch_audio",
+        "importPath": "app.modification",
+        "description": "app.modification",
+        "isExtraImport": true,
+        "detail": "app.modification",
+        "documentation": {}
+    },
+    {
+        "label": "transcribe",
+        "importPath": "app.transcribition",
+        "description": "app.transcribition",
+        "isExtraImport": true,
+        "detail": "app.transcribition",
+        "documentation": {}
+    },
+    {
+        "label": "shift_pitch",
+        "kind": 2,
+        "importPath": "app.modification.modification",
+        "description": "app.modification.modification",
+        "peekOfCode": "def shift_pitch(\n    readed_audio: ReadAudio,\n    steps: int,\n    bins_per_octave: int,\n) -> ProcessedAudio:\n    if bins_per_octave <= 0:\n        raise ValueError(\n            f\"Bins per octave must be greater than zero(Given bins: {bins_per_octave})\"\n        )\n    y, sr = readed_audio",
+        "detail": "app.modification.modification",
+        "documentation": {}
+    },
+    {
+        "label": "stretch_audio",
+        "kind": 2,
+        "importPath": "app.modification.modification",
+        "description": "app.modification.modification",
+        "peekOfCode": "def stretch_audio(\n    readed_audio: ReadAudio,\n    rate: float,\n) -> ProcessedAudio:\n    if rate <= 0:\n        raise ValueError(f\"Time stretch can't be less than zero(Given rate: {rate}).\")\n    return time_stretch(y=readed_audio[0], rate=rate), readed_audio[1]",
+        "detail": "app.modification.modification",
+        "documentation": {}
+    },
+    {
+        "label": "ProcessedAudio",
+        "kind": 5,
+        "importPath": "app.modification.modification",
+        "description": "app.modification.modification",
+        "peekOfCode": "ProcessedAudio = Tuple[ndarray, float]\ndef shift_pitch(\n    readed_audio: ReadAudio,\n    steps: int,\n    bins_per_octave: int,\n) -> ProcessedAudio:\n    if bins_per_octave <= 0:\n        raise ValueError(\n            f\"Bins per octave must be greater than zero(Given bins: {bins_per_octave})\"\n        )",
+        "detail": "app.modification.modification",
+        "documentation": {}
+    },
+    {
+        "label": "transcribe",
+        "kind": 2,
+        "importPath": "app.transcribition.transcribe",
+        "description": "app.transcribition.transcribe",
+        "peekOfCode": "def transcribe(model_name: str, audio_file: PathLike) -> dict[str, str | list]:\n    model = load_model(name=model_name)\n    if not Path(audio_file).exists():\n        raise FileNotFoundError()\n    read_audio_ = read_audio(audio_file)\n    result = model.transcribe(audio=read_audio_[0])\n    return result",
+        "detail": "app.transcribition.transcribe",
+        "documentation": {}
+    },
+    {
+        "label": "JSONFormatter",
+        "kind": 6,
+        "importPath": "app.base",
+        "description": "app.base",
+        "peekOfCode": "class JSONFormatter(logging.Formatter):\n    def __init__(self):\n        super().__init__()\n    def format(self, record):\n        record.msg = json.dumps(\n            record.msg,\n            ensure_ascii=False,\n        )\n        return super().format(record)",
+        "detail": "app.base",
+        "documentation": {}
+    },
+    {
+        "label": "read_audio",
+        "kind": 2,
+        "importPath": "app.base",
+        "description": "app.base",
+        "peekOfCode": "def read_audio(file: PathLike) -> ReadAudio:\n    pfile = Path(file)\n    if not pfile.exists():\n        raise FileNotFoundError(f\"{pfile} not found.\")\n    audio_ts, sampling_rate = librosa.load(file)\n    return audio_ts, sampling_rate\nclass JSONFormatter(logging.Formatter):\n    def __init__(self):\n        super().__init__()\n    def format(self, record):",
+        "detail": "app.base",
+        "documentation": {}
+    },
+    {
+        "label": "modificate",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def modificate(\n    file_name: Annotated[\n        Path,\n        typer.Argument(\n            exists=True,\n            file_okay=True,\n            dir_okay=False,\n            readable=True,\n            resolve_path=True,\n            help=\"File to modificate. Supported only WAV format.\",",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "audio_to_text",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def audio_to_text(\n    file_name: Annotated[\n        Path,\n        typer.Argument(\n            exists=True,\n            file_okay=True,\n            dir_okay=False,\n            readable=True,\n            resolve_path=True,\n            help=\"File to modificate. Supported only WAV format.\",",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = typer.Typer()\navailable_models = [\"tiny\", \"base\", \"small\", \"medium\", \"large\"]\nlogger = logging.getLogger(__name__)\nlogger.setLevel(logging.INFO)\nloggingStreamHandler = logging.FileHandler(\"log.json\")\nloggingStreamHandler.setFormatter(JSONFormatter())\nlogger.addHandler(loggingStreamHandler)\n@app.command(name=\"change\")\ndef modificate(\n    file_name: Annotated[",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "available_models",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "available_models = [\"tiny\", \"base\", \"small\", \"medium\", \"large\"]\nlogger = logging.getLogger(__name__)\nlogger.setLevel(logging.INFO)\nloggingStreamHandler = logging.FileHandler(\"log.json\")\nloggingStreamHandler.setFormatter(JSONFormatter())\nlogger.addHandler(loggingStreamHandler)\n@app.command(name=\"change\")\ndef modificate(\n    file_name: Annotated[\n        Path,",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nlogger.setLevel(logging.INFO)\nloggingStreamHandler = logging.FileHandler(\"log.json\")\nloggingStreamHandler.setFormatter(JSONFormatter())\nlogger.addHandler(loggingStreamHandler)\n@app.command(name=\"change\")\ndef modificate(\n    file_name: Annotated[\n        Path,\n        typer.Argument(",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "loggingStreamHandler",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "loggingStreamHandler = logging.FileHandler(\"log.json\")\nloggingStreamHandler.setFormatter(JSONFormatter())\nlogger.addHandler(loggingStreamHandler)\n@app.command(name=\"change\")\ndef modificate(\n    file_name: Annotated[\n        Path,\n        typer.Argument(\n            exists=True,\n            file_okay=True,",
+        "detail": "main",
+        "documentation": {}
+    }
+]

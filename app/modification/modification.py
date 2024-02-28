@@ -2,14 +2,14 @@ from typing import Tuple
 from librosa.effects import pitch_shift, time_stretch
 from numpy import ndarray
 
-from app.base import ReadedAudio
+from app.base import ReadAudio
 
 
 ProcessedAudio = Tuple[ndarray, float]
 
 
 def shift_pitch(
-    readed_audio: ReadedAudio,
+    readed_audio: ReadAudio,
     steps: int,
     bins_per_octave: int,
 ) -> ProcessedAudio:
@@ -31,7 +31,7 @@ def shift_pitch(
 
 
 def stretch_audio(
-    readed_audio: ReadedAudio,
+    readed_audio: ReadAudio,
     rate: float,
 ) -> ProcessedAudio:
     if rate <= 0:
